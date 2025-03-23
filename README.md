@@ -102,12 +102,9 @@ Access the API endpoints at http://localhost:5000/
 
 ## API Endpoints
 
-### 1. Health Check
-- **URL**: `/`
-- **Method**: `GET`
-- **Response**: "Hello, World!"
 
-### 2. Ask Question
+
+### 1. Ask Question
 - **URL**: `/ask`
 - **Method**: `POST`
 - **Request Body**:
@@ -123,7 +120,7 @@ Access the API endpoints at http://localhost:5000/
   }
   ```
 
-### 3. Get Analytics
+### 2. Get Analytics
 - **URL**: `/analytics`
 - **Method**: `POST`
 - **Response**: Full analytics report as JSON
